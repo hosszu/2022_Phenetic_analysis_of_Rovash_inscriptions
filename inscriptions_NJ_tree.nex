@@ -1,0 +1,157 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=55;
+	taxlabels
+	Achik_Tash
+	Algyo
+	Almaly_II
+	Bagy
+	Bel
+	Bichiktu_Boom_III
+	Bichiktu_Boom_XV
+	Bodrog_Alsobu
+	Bonyhai
+	Constantinople
+	Csikszentmihaly
+	Erdoszentgyorgy
+	Farkaslaki
+	Homokmegy_Halom
+	Homorodkaracsonyfalva
+	Janoshida
+	Jitkov
+	Kajoni_Ancient
+	Kalbak_Tash_II
+	Kermen_Tolga
+	Khumara_6
+	Khumara_7
+	Khumara_8
+	Kievan_Letter
+	Kiskoros_Vagohid
+	Kiskundorozsma
+	Kornye
+	Koytubek
+	Kul_Tegin
+	Kuljabasy_I
+	Kuljabasy_II
+	Kurgak_I
+	Mayaki
+	Mayatskoe_1
+	Mayatskoe_10
+	Mayatskoe_2
+	Mayatskoe_5
+	Mendur_Sokkon_I
+	Nagyszentmiklos
+	Nikolsburg
+	Novocherkassk
+	Ozora_Totipuszta
+	Patakfalvi
+	Rudimenta
+	Stick_Calendar
+	Szamoskozy
+	Szarvas
+	Szekelyderzs
+	Tamgaly
+	Tuva_III
+	Urkosh
+	Vargyas
+	Wolfenbuttel
+	Yabogan
+	Zhon_Aryk
+;
+end;
+
+begin trees;
+	tree PAST_cluster = [&U] ((((Khumara_7:0.2547,Khumara_6:0.1527):0.09148,Achik_Tash:0.2901):0.01798,Khumara_8:0.2571)[&!hilight={4,0.28857,#b1a0c7}]:0.001959,((((((Mayatskoe_5:0.3395,Mayatskoe_1:0.2319):0.02761,Novocherkassk:0.2656)[&!hilight={3,0.17804499999999995,#b1a0c7}]:0.0242,(Algyo:0.3555,Kiskoros_Vagohid:0.3588):0.08392):0.04912,Jitkov:0.2669):0.02477,(Kermen_Tolga:0.23,Mayatskoe_10:0.1986)[&!hilight={2,0.36392499999999994,#b1a0c7}]:0.04932):0.009485,(((((((((Bagy:0.2348,Bodrog_Alsobu:0.2652):0.05863,Szekelyderzs:0.3263):0.03439,(((((((Kajoni_Ancient:0.1127,Szamoskozy:0.07099):0.02673,Patakfalvi:0.0889):0.02435,(((Bel:0.02414,Rudimenta:0.03142):0.03658,Nikolsburg:0.08251):0.002161,Stick_Calendar:0.08043):0.02799):0.014,(Bonyhai:0.1121,Wolfenbuttel:0.09626):0.03744):0.02767,Csikszentmihaly:0.1193):0.03742,Farkaslaki:0.2025):0.03999,Constantinople:0.2147):0.07739):0.03857,(Homorodkaracsonyfalva:0.237,Vargyas:0.2367):0.1148)[&!hilight={17,0.03381000000000001,#00ff00}]:0.04381,Homokmegy_Halom:0.3969):0.03188,((((((((Mendur_Sokkon_I:0.07047,Bichiktu_Boom_XV:0.1003):0.07216,Tuva_III:0.1682):0.04455,((Kuljabasy_II:0.2156,Kalbak_Tash_II:0.1444):0.03816,Bichiktu_Boom_III:0.1685):0.05149):0.02668,((((Kul_Tegin:0.09729,Yabogan:0.09021):0.03048,Kurgak_I:0.1202):0.03347,Zhon_Aryk:0.1552):0.02348,Almaly_II:0.1745):0.0486):0.01313,(Urkosh:0.1854,Kuljabasy_I:0.1746):0.08796):0.0428,Koytubek:0.3218):0.0204,Tamgaly:0.3904)[&!hilight={15,0.0,#99ccff}]:0.06356,(Ozora_Totipuszta:0.2412,Erdoszentgyorgy:0.3144):0.095):0.03694):0.05536,Janoshida:0.3805):0.03941,((Nagyszentmiklos:0.185,Szarvas:0.1787):0.06528,Kiskundorozsma:0.3371)[&!hilight={3,0.20637999999999995,#ff9900}]:0.06005):0.01671,(((Kievan_Letter:0.2887,Kornye:0.2498):0.07599,Mayaki:0.2908):0.05307,Mayatskoe_2:0.3398):0.02506):0.03249):0.001959);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=2.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="Agency FB";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="Agency FB";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=false;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.07;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Agency FB";
+	set tipLabels.fontSize=15;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
