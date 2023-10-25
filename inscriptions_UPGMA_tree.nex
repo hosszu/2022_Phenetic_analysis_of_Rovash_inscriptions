@@ -1,6 +1,6 @@
 #NEXUS
 begin taxa;
-	dimensions ntax=55;
+	dimensions ntax=54;
 	taxlabels
 	Achik_Tash
 	Algyo
@@ -13,7 +13,6 @@ begin taxa;
 	Bonyhai
 	Constantinople
 	Csikszentmihaly
-	Erdoszentgyorgy
 	Farkaslaki
 	Homokmegy_Halom
 	Homorodkaracsonyfalva
@@ -61,7 +60,7 @@ begin taxa;
 end;
 
 begin trees;
-	tree PAST_cluster = [&U] ((((((Janoshida:0.6295,(Szarvas:0.3636,Nagyszentmiklos:0.3636):0.2658)[&!hilight={3,1.3399999999996748E-4,#ff9900}]:0.06895,((((Jitkov:0.5373,(Mayatskoe_10:0.4286,Kermen_Tolga:0.4286):0.1087):0.01498,(Achik_Tash:0.5146,(Khumara_6:0.4,Khumara_8:0.4):0.1146):0.03765):0.058,(Mayatskoe_1:0.4737,Novocherkassk:0.4737):0.1366):0.05299,Khumara_7:0.6633)[&!hilight={9,1.24000000000013E-4,#b1a0c7}]:0.03516):0.05414,Mayatskoe_5:0.7526):0.01199,(((Kornye:0.5385,Kiskundorozsma:0.5385)[&!hilight={2,1.6399999999994197E-4,#ff9900}]:0.1593,Kievan_Letter:0.6978):0.01895,(Mayaki:0.6471,Mayatskoe_2:0.6471)[&!hilight={2,1.2399999999990197E-4,#b1a0c7}]:0.06969):0.0478):0.08875,(Algyo:0.7143,Kiskoros_Vagohid:0.7143):0.139):0.04977,(((Erdoszentgyorgy:0.5556,Ozora_Totipuszta:0.5556):0.2385,((((((Kalbak_Tash_II:0.3333,Bichiktu_Boom_III:0.3333):0.06667,Kuljabasy_II:0.4):0.07654,(((((Kul_Tegin:0.1875,Yabogan:0.1875):0.05692,Kurgak_I:0.2444):0.07281,Zhon_Aryk:0.3172):0.04002,((Bichiktu_Boom_XV:0.1707,Mendur_Sokkon_I:0.1707):0.155,Tuva_III:0.3258):0.03148):0.0462,Almaly_II:0.4034):0.0731):0.03936,(Kuljabasy_I:0.36,Urkosh:0.36):0.1559):0.0833,Koytubek:0.5992):0.1189,Tamgaly:0.7181)[&!hilight={15,1.140000000000585E-4,#99ccff}]:0.07596):0.04212,(((Vargyas:0.4737,Homorodkaracsonyfalva:0.4737):0.2075,(((((((((Stick_Calendar:0.1454,(Rudimenta:0.05556,Bel:0.05556):0.08982):0.008091,Nikolsburg:0.1535):0.05431,(Szamoskozy:0.1786,Patakfalvi:0.1786):0.02921):0.02897,Csikszentmihaly:0.2368):0.03427,((Wolfenbuttel:0.2083,Bonyhai:0.2083):0.04134,Kajoni_Ancient:0.2497):0.02135):0.1023,Farkaslaki:0.3733):0.03156,Constantinople:0.4049):0.214,Szekelyderzs:0.6188):0.008224,(Bodrog_Alsobu:0.5,Bagy:0.5):0.127):0.05418)[&!hilight={17,0.0,#00ff00}]:0.11,Homokmegy_Halom:0.7912):0.045):0.0669);
+	tree PAST_cluster = [&U] (((((Ozora_Totipuszta:0.6364,Kievan_Letter:0.6364):0.09494,((Kornye:0.5385,Kiskundorozsma:0.5385)[&!hilight={2,1.4400000000025504E-4,#ff9900}]:0.1606,(Mayaki:0.6471,Mayatskoe_2:0.6471)[&!hilight={2,1.24000000000124E-4,#b1a0c7}]:0.05202):0.03223):0.04976,(((Janoshida:0.6295,(Szarvas:0.3636,Nagyszentmiklos:0.3636):0.2658)[&!hilight={3,1.3400000000018952E-4,#ff9900}]:0.06895,((((Jitkov:0.5373,(Mayatskoe_10:0.4286,Kermen_Tolga:0.4286):0.1087):0.01498,(Achik_Tash:0.5146,(Khumara_6:0.4,Khumara_8:0.4):0.1146):0.03765):0.058,(Mayatskoe_1:0.4737,Novocherkassk:0.4737):0.1366):0.05299,Khumara_7:0.6633)[&!hilight={9,1.24000000000124E-4,#b1a0c7}]:0.03516):0.05414,Mayatskoe_5:0.7526):0.02851):0.07243,(Algyo:0.7143,Kiskoros_Vagohid:0.7143):0.1392):0.04875,((((Vargyas:0.4737,Homorodkaracsonyfalva:0.4737):0.2075,(((((((((Stick_Calendar:0.1454,(Rudimenta:0.05556,Bel:0.05556):0.08982):0.008091,Nikolsburg:0.1535):0.05431,(Szamoskozy:0.1786,Patakfalvi:0.1786):0.02921):0.02897,Csikszentmihaly:0.2368):0.03427,((Wolfenbuttel:0.2083,Bonyhai:0.2083):0.04134,Kajoni_Ancient:0.2497):0.02135):0.1023,Farkaslaki:0.3733):0.03156,Constantinople:0.4049):0.214,Szekelyderzs:0.6188):0.008224,(Bodrog_Alsobu:0.5,Bagy:0.5):0.127):0.05418)[&!hilight={17,0.0,#00ff00}]:0.11,Homokmegy_Halom:0.7912):0.04435,((((((Kalbak_Tash_II:0.3333,Bichiktu_Boom_III:0.3333):0.06667,Kuljabasy_II:0.4):0.07654,(((((Kul_Tegin:0.1875,Yabogan:0.1875):0.05692,Kurgak_I:0.2444):0.07281,Zhon_Aryk:0.3172):0.04002,((Bichiktu_Boom_XV:0.1707,Mendur_Sokkon_I:0.1707):0.155,Tuva_III:0.3258):0.03148):0.0462,Almaly_II:0.4034):0.0731):0.03936,(Kuljabasy_I:0.36,Urkosh:0.36):0.1559):0.0833,Koytubek:0.5992):0.1189,Tamgaly:0.7181)[&!hilight={15,1.4400000000025504E-4,#99ccff}]:0.1174):0.06673);
 end;
 
 begin figtree;
@@ -69,7 +68,7 @@ begin figtree;
 	set appearance.backgroundColour=#ffffff;
 	set appearance.branchColorAttribute="User selection";
 	set appearance.branchColorGradient=false;
-	set appearance.branchLineWidth=2.0;
+	set appearance.branchLineWidth=1.0;
 	set appearance.branchMinLineWidth=0.0;
 	set appearance.branchWidthAttribute="Fixed";
 	set appearance.foregroundColour=#000000;
@@ -77,7 +76,7 @@ begin figtree;
 	set appearance.selectionColour=#2d3680;
 	set branchLabels.colorAttribute="User selection";
 	set branchLabels.displayAttribute="Branch times";
-	set branchLabels.fontName="Agency FB";
+	set branchLabels.fontName="sansserif";
 	set branchLabels.fontSize=8;
 	set branchLabels.fontStyle=0;
 	set branchLabels.isShown=false;
@@ -94,7 +93,7 @@ begin figtree;
 	set nodeBars.isShown=false;
 	set nodeLabels.colorAttribute="User selection";
 	set nodeLabels.displayAttribute="Node ages";
-	set nodeLabels.fontName="Agency FB";
+	set nodeLabels.fontName="sansserif";
 	set nodeLabels.fontSize=8;
 	set nodeLabels.fontStyle=0;
 	set nodeLabels.isShown=false;
@@ -137,13 +136,13 @@ begin figtree;
 	set scaleAxis.showGrid=true;
 	set scaleBar.automaticScale=true;
 	set scaleBar.fontSize=10.0;
-	set scaleBar.isShown=false;
+	set scaleBar.isShown=true;
 	set scaleBar.lineWidth=1.0;
-	set scaleBar.scaleRange=0.1;
+	set scaleBar.scaleRange=0.0;
 	set tipLabels.colorAttribute="User selection";
 	set tipLabels.displayAttribute="Names";
-	set tipLabels.fontName="Agency FB";
-	set tipLabels.fontSize=15;
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
 	set tipLabels.fontStyle=0;
 	set tipLabels.isShown=true;
 	set tipLabels.significantDigits=4;
