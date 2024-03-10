@@ -1,5 +1,5 @@
 # Multivariate analysis of Rovash inscriptions
 
-NEX files for clustering & ordination analysis of Rovash scripts and inscriptions using PAST software.
+Matlab files are used for clustering and ordination analysis of Rovash scripts and inscriptions.
 
-NEX files to display trees with FigTree software.
+An Excel file serves as the input database.
