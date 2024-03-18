@@ -117,7 +117,7 @@ function linkageSelector_Callback(hObject,~,handles) % Executes on linkage selec
    case 2, linkageType='single';linkageNameType='Single (nearest neighbour)';
    case 3, linkageType='complete';linkageNameType='Complete (farthest neighbour)';
    case 4, linkageType='average';linkageNameType='UPGMA';
-   case 5, linkageType='weighted';linkageNameType='WPGMA';
+   case 5, linkageType='weighted';linkageNameType='WPGMA kutykurutty';
    case 6, linkageType='centroid';linkageNameType='UPGMC (centroid)';
    case 7, linkageType='median';linkageNameType='WPGMC (median)';
    case 8, linkageType='ward';linkageNameType='Ward (minimum variance)';
